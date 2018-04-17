@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/loginregisteruibg"
+    tools:context=".LoginRegisterButtonActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="360dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/btstylelogin"
+            android:fontFamily="sans-serif"
+            android:text="@string/login"
+            android:textAllCaps="true"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btResgiter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/btstyleregister"
+            android:fontFamily="sans-serif"
+            android:text="@string/register"
+            android:textAllCaps="true"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+</ScrollView>
